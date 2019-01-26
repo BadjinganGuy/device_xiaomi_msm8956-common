@@ -332,7 +332,6 @@ else
         fi
     fi
 
-    configure_zram_parameters
 
     SWAP_ENABLE_THRESHOLD=1048576
     swap_enable=`getprop ro.vendor.qti.config.swap`
