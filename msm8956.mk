@@ -459,7 +459,3 @@ PRODUCT_PACKAGES += \
 #Zuk Extras
 PRODUCT_PACKAGES += \
     ZukPref
-
-# Prebuilts
-PRODUCT_PACKAGES += \
-    OnePlusGallery
