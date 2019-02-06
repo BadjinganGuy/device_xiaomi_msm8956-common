@@ -418,7 +418,7 @@
           The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
-   <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
     <bool name="config_cleanupUnusedFingerprints">false</bool>
 
     <!-- Does the device supports fast charging -->
@@ -432,6 +432,10 @@
 
     <!-- AlwaysOnDisplay  -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">5</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">6</integer>  
 </resources>
 
 
