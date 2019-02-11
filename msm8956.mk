@@ -463,5 +463,5 @@ PRODUCT_COPY_FILES += \
 #    AdvancedControls
 
 # Zuk Extras
-# PRODUCT_PACKAGES += \
-#    ZukPref
+PRODUCT_PACKAGES += \
+    ZukPref
